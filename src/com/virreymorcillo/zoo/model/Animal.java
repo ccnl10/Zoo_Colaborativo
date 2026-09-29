@@ -19,5 +19,6 @@ public abstract class Animal {
     }
 
     // Método abstracto: cada subclase decide cómo suena su animal.
+    // Línea modificada
     public abstract void makeSound();
 }
