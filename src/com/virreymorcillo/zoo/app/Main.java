@@ -54,12 +54,8 @@ public class Main {
         // --- LÍNEA 10 ---
 
 
-        for (Animal a : zoo) {
-            a.makeSound();
-            if (a instanceof Pet) {
-                Pet mascota = (Pet) a;
-                mascota.play();
+
             }
         }
-    }
-}
+
+
