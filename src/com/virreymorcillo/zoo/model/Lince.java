@@ -5,7 +5,7 @@ public class Lince extends Animal {
     }
     @Override
     public void makeSound() {
-        System.out.println(nombre + " (Lince) ruge con fuerza y se estira para dormir");
+        System.out.println(nombre + " (Lince) ruge con fuerza y se estira para dormir esta noche");
     }
 
 }
