@@ -9,6 +9,7 @@ package com.virreymorcillo.zoo.model;
 public abstract class Animal {
 
     protected String nombre;
+    protected double peso;
 
     public Animal(String nombre) {
         this.nombre = nombre;
@@ -17,6 +18,10 @@ public abstract class Animal {
     public String getNombre() {
         return nombre;
     }
+    public double getNPeso() {
+        return peso;
+    }
+
 
     // Método abstracto: cada subclase decide cómo suena su animal.
     public abstract void makeSound();
