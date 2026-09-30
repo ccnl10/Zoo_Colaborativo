@@ -16,3 +16,4 @@ public class Perro extends Animal implements Pet {
         System.out.println(nombre + " juega a atrapar la pelota.");
     }
 }
+// algo
